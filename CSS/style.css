@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  background-color: rgb(218, 219, 219);
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+}
+
+header,footer {
+  text-align: center;
+  width: 400px;
+  margin: 30px auto 0px auto;
+}
+
+.mastermind-logo {
+  border-radius: 20px;
+  box-shadow: 10px 15px 5px black;
+}
+
+main {
+  width: 400px;
+  margin: 30px auto 0px auto;
+
+}
+
+.formulario {
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 10px 15px 5px black;
+  background-color: rgb(145, 197, 243);
+  width: 75%;
+  height: 50%;
+}
+
+.nick {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  width: 70%;
+  font-family: 'Kanit', sans-serif;
+}
+
+.contrasena {
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  font-family: 'Kanit', sans-serif;
+}
+
+.tamano {
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  font-family: 'Kanit', sans-serif;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  width: 70%;
+} 
+
+select {
+  width: 42%;
+  font-size: 15px;
+}
+
+div {
+  margin-top: 5px;
+}
+

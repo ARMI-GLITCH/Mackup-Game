@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/cfa6615fb1.js" crossorigin="anonymous"></script>
+  <title>MasterDots</title>
+</head>
+<body>
+  <center>
+  <header>
+    <img class="mastermind-logo" src="Media/Mastermind_Logotipo.jpg" height="100px">
+  </header>
+  <main>
+    <form class="formulario">
+      <div class="form-usuario">
+        <label for="nick"><b><i class="fa-solid fa-user"></i> Nombre de Usuario</b></label><br>
+        <input class="nick" type="text" name="nick" id="nick"><br>
+      </div>
+      <div class="form-contraseña">
+        <label for="contraseña"><b><i class="fa-solid fa-key"></i> Contraseña</b></label><br>
+        <input class="contrasena" type="password" name="password" id="password"><br>
+      </div>
+      <div class="select-tamano">
+        <label for="tamano"><b><i class="fa-solid fa-maximize"></i> Tamaño del Juego</b></label><br>
+        <select class="tamano" name="tamano" id="tamano">
+          <option value="">------Elige un Tamaño------</option><br>
+          <option value="6x6">6x6</option>
+          <option value="4x4">4x4</option>
+          <option value="2x2">2x2</option>
+        </select>
+      </div>
+      <div class="button-submit">
+        <input class="button" type="submit" value="JUGAR">
+      </div>
+    </form>
+  </main>
+  <footer>
+    @2024 Armando Pasten Martinez. Todos los derechos reservados.
+  </footer>
+</center>
+<script type="module" src="JS/front.js"></script>
+</body>
+</html>
